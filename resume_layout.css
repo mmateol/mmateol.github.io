@@ -1,11 +1,18 @@
 /* This stylesheet contains the my resume layout */
 
 body {
+	display: flex;
+	justify-content: center;
+}
+
+#wrapper {
 	display: grid;
 	grid-template-columns: 60% 40%;
 	grid-auto-rows: minmax(100px, auto);
 	grid-gap: 10px;
-	margin: 100px;
+	width: 50%;
+	min-width: 1000px;
+	min-height: 1080px;
 }
 
 header {
