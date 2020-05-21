@@ -1,28 +1,31 @@
 /* This stylesheet contains the styles for my resume */
 
 :root {
-	--black: #0F1108;
-	--white: #FFFCF2;
+	--black: #292A33;
+	--white: #FCFCFA;
+	--gray: #E6E3DA;
 	--blue: #225560;
-	--red: #882026;
 }
 
 body {
 	background-image: url("images/page_background.jpg");
-	font-family: "Lucida Console", Monaco, monospace;
-	font-size: 14px;
+}
+
+header, header ul {
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 #wrapper {
 	color: var(--black);
 	background: var(--white);
 	box-shadow: 0px 0px 10px  var(--black);
+	font-family: 'Roboto', sans-serif;
 }
 
 h1.name  {
-	color: var(--red);
-	font-size: 5rem;
-	font-weight: 300;
+	color: var(--blue);
+	font-size: 3rem;
 	margin: 0px;
 	padding: 0px;
 }
@@ -38,8 +41,9 @@ h1.name  {
 .tag-list li {
 	margin: 5px;
 	padding: 5px;
-	background-color: var(--blue);
-	color: var(--white);
+	background-color: var(--gray);
+	color: var(--black);
+	font-weight: bold;
 }
 
 ul.experience__description {
@@ -58,12 +62,10 @@ ul.experience__description {
 }
 
 .experience__header {
-	font-weight: bold;
 }
 
 .experience__title {
-	color: var(--red);
-	font-weight: 200;
+	color: var(--blue);
 	margin: 0px;
 }
 
