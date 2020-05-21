@@ -1,0 +1,28 @@
+#wrapper {
+	grid-auto-rows: minmax(1cm, auto);
+	grid-gap: 2mm;
+	font-size: 11pt;
+	min-width: 8in;
+	min-height: 10in;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0px;
+	padding-botton: 0px;
+	padding-left: .5cm;
+	padding-right: .5cm;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}		
+
+.experience__description li {
+	border-left: .1mm solid black;
+}
+
+.tag-list li {
+	border: .10mm  solid black;
+	font-weight: normal;
+}
+
