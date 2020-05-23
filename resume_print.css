@@ -7,9 +7,10 @@
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-top: 0px;
-	padding-botton: 0px;
+	padding-bottom: 0px;
 	padding-left: .5cm;
 	padding-right: .5cm;
+	box-shadow: none;
 }
 
 body {
