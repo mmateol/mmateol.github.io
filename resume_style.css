@@ -75,6 +75,10 @@ a, a:hover, a:visited {
 }
 
 @media only screen and (max-width: 900px) {
+	 h1.name {
+		text-align: center;
+	 }
+
 	 header ul.experience__description {
 		display: flex;
 		flex-direction: column;
