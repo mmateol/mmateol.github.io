@@ -8,7 +8,7 @@
 }
 
 body {
-	background-image: url("images/page_background.jpg");
+	background-color: var(--gray);
 }
 
 header, header ul {
