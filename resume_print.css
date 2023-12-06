@@ -13,6 +13,14 @@
 	box-shadow: none;
 }
 
+#wrapper {
+	background-color: #fff;
+}
+
+#wrapper header {
+	padding-bottom: .1mm;
+}
+
 body {
 	margin: 0;
 	padding: 0;

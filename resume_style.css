@@ -39,11 +39,12 @@ h1.name  {
 }
 
 .tag-list li {
-	margin: 5px;
-	padding: 5px;
+	margin: 2px;
+	padding: 3px;
 	background-color: var(--gray);
 	color: var(--black);
 	font-weight: bold;
+	font-size: .7rem;
 }
 
 ul.experience__description {
@@ -61,7 +62,8 @@ ul.experience__description {
 	padding-left: 0px;
 }
 
-.experience__header {
+.experience__details li {
+	font-size: .9rem;
 }
 
 .experience__title {
